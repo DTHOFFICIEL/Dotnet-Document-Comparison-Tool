@@ -137,12 +137,13 @@ ComparisonUtil/
 ├── TextProcessor.cs          # 文本格式处理器（Markdown/WikiText）
 ├── ComparisonUtil.csproj     # 项目配置文件
 ├── README.md                 # 项目说明文档
-├── sample1.txt               # 纯文本测试样本
-├── sample2.txt               # 纯文本测试样本
-├── sample_markdown1.md       # Markdown测试样本
-├── sample_markdown2.md       # Markdown测试样本
-├── sample_wikitext1.wiki     # WikiText测试样本
-└── sample_wikitext2.wiki     # WikiText测试样本
+├── Example Assets            # 测试样本
+├──── sample1.txt               # 纯文本测试样本
+├──── sample2.txt               # 纯文本测试样本
+├──── sample_markdown1.md       # Markdown测试样本
+├──── sample_markdown2.md       # Markdown测试样本
+├──── sample_wikitext1.wiki     # WikiText测试样本
+└──── sample_wikitext2.wiki     # WikiText测试样本
 ```
 
 ## 许可证
