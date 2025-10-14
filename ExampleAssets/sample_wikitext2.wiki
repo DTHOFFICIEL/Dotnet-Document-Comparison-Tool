@@ -1,0 +1,45 @@
+{{Infobox
+|title = 更新的测试页面
+|image = newexample.png
+|caption = 新的示例图片
+}}
+
+== 介绍 ==
+
+这是一个'''加粗文本'''和''倾斜文本''的示例，内容已更新。
+
+这里有一个[[新链接]]和[[页面名称|修改后的文本]]。
+
+<div class="updated-style" style="background: blue;">
+这是一个更新后的div内容。
+</div>
+
+=== 列表示例 ===
+
+* 修改后的第一项
+* 第二项
+* 新增的第四项
+
+# 有序列表第一项被修改
+# 有序列表第二项
+# 新增的第三项
+
+[[File:NewExample.jpg|thumb|新的图片说明]]
+
+<ref>这是一个更新的引用</ref>
+
+{| class="wikitable"
+! 新表头1 !! 表头2 !! 表头3
+|-
+| 新单元格1 || 单元格2 || 单元格3
+|-
+| 单元格7 || 单元格8 || 单元格9
+|}
+
+[[Category:更新的分类]]
+
+<nowiki>这里是新的不解析内容</nowiki>
+
+== 参考资料 ==
+<references />
+

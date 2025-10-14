@@ -1,0 +1,44 @@
+{{Infobox
+|title = 测试页面
+|image = example.png
+|caption = 示例图片
+}}
+
+== 介绍 ==
+
+这是一个'''粗体文本'''和''斜体文本''的示例。
+
+这里有一个[[链接]]和[[页面名称|显示文本]]。
+
+<div class="custom-style" style="background: red;">
+这是一个带样式的div内容。
+</div>
+
+=== 列表示例 ===
+
+* 第一项
+* 第二项
+* 第三项
+
+# 有序列表第一项
+# 有序列表第二项
+
+[[File:Example.jpg|thumb|图片说明文字]]
+
+<ref>这是一个引用</ref>
+
+{| class="wikitable"
+! 表头1 !! 表头2 !! 表头3
+|-
+| 单元格1 || 单元格2 || 单元格3
+|-
+| 单元格4 || 单元格5 || 单元格6
+|}
+
+[[Category:测试分类]]
+
+<nowiki>这里的wiki语法不会被解析</nowiki>
+
+== 参考资料 ==
+<references />
+
