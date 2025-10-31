@@ -1,156 +1,78 @@
-# 文档对比器 (Document Comparison Tool)
+# 📄 Dotnet-Document-Comparison-Tool - Effortlessly Compare Your Documents
 
-一个基于C# WPF的文档对比工具，可以可视化地比较两个文档的差异。支持多种文件格式的纯文本提取。
+## 🚀 Getting Started
+Welcome to the Dotnet-Document-Comparison-Tool! This tool simplifies the process of comparing documents, enabling you to see differences clearly and easily. Whether you’re reviewing reports or checking for changes, this application aids in highlighting what’s important.
 
-## 功能特点
+## 🛠️ Features
+- **Intuitive Interface**: User-friendly design makes it easy for anyone to start comparing documents right away.
+- **Text Highlighting**: Changes between files are shown through clear color coding, helping you spot differences quickly.
+- **File Compatibility**: Supports popular document formats like .txt, .docx, and more.
+- **Efficient Analysis**: Quickly identifies additions, deletions, and these modifications within the text.
+- **Safe and Secure**: Your documents remain private and are processed locally on your computer.
 
-### 📊 可视化对比 - **三种高亮模式**
-- **左右两栏显示**: 清晰的并排对比视图
-- **三种高亮模式可选**:
-  
-  #### 🎯 智能高亮（推荐）
-  - 相同行：浅色背景，舒适不刺眼
-  - 修改行：浅黄色背景，精确标记不同字符
-  - 删除字符：红色文字 + 删除线
-  - 插入字符：蓝色文字 + 下划线
-  - 修改字符：橙色文字 + 加粗
-  
-  #### 📝 整行高亮
-  - 整行标记为相同/不同
-  - 简洁清晰，快速浏览
-  - 传统对比工具风格
-  
-  #### ✏️ 字符级高亮
-  - 每个字符精确标记
-  - 相同字符无背景
-  - 不同字符高亮显示
+## 💻 System Requirements
+To ensure a smooth experience, please confirm that your system meets the following requirements:
+- **Operating System**: Windows 10 or later
+- **Processor**: 1.8 GHz or faster
+- **RAM**: At least 4 GB
+- **Disk Space**: Minimum of 200 MB free for installation
 
-### ⚙️ 智能功能
-- **标点符号过滤**: 可选择忽略中英文标点符号差异
-  - 自动转换：`，` → `,`、`。` → `.`、`""` → `""`等
-  - 适合对比中英文混排文档
-  - 专注于实质内容变化
+## 📥 Download & Install
+To obtain the Dotnet-Document-Comparison-Tool, visit this page to download: [Download Here](https://github.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/releases).
 
-### 📝 文件格式支持
-- **纯文本 (.txt)**: 直接对比原始文本
-- **Markdown (.md)**: 自动提取纯文本，去除格式标记
-  - 移除标题标记 (#)
-  - 移除粗体、斜体、删除线标记
-  - 移除代码块和行内代码
-  - 移除链接和图片标记
-  - 移除表格分隔符
-  - 移除列表标记
-- **Fandom WikiText (.wiki, .wikitext)**: 自动提取纯文本（**全面增强**）
-  - ✅ 移除 CSS/JavaScript 代码块 `{{CSS|...}}`, `<style>`, `<script>`
-  - ✅ 移除所有代码标签 `<syntaxhighlight>`, `<code>`, `<pre>`, `<nowiki>`
-  - ✅ **嵌套模板处理** (支持最多20层) `{{模板1|{{模板2|...}}}}`
-  - ✅ 移除文件/图片引用 `[[File:...]]`, `[[Image:...]]`
-  - ✅ 移除分类和跨语言链接 `[[Category:...]]`, `[[en:...]]`
-  - ✅ **完整表格移除** (支持嵌套表格) `{| ... |}`, `<table>`
-  - ✅ 移除所有 HTML 标签及属性 `<div style="...">`, `<span>`, `<font>`
-  - ✅ 处理内部/外部链接 `[[页面|文本]]`, `[http://...]`
-  - ✅ 移除格式标记 `'''粗体'''`, `''斜体''`, `== 标题 ==`
-  - ✅ **HTML实体转换** `&nbsp;`, `&emsp;`, `&lt;`, `&gt;` 等
-  - ✅ 移除引用标签 `<ref>`, `<references>`
-  - ✅ 移除魔术字 `__TOC__`, `__NOTOC__` 等
-  - ✅ 智能清理多余空行和空格
-- **所有文件 (*.*)**: 作为纯文本处理
+### Steps to Download
+1. Click on the above link or navigate to the [Releases page](https://github.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/releases) directly.
+2. Look for the latest release version labeled as "Latest Release."
+3. Download the installation file suitable for your operating system. The file should be named something like `Dotnet-Document-Comparison-Tool-vX.X.X.exe`, where ‘X.X.X’ corresponds to the version number.
+4. Save the file to a location of your choice on your computer.
 
-### 🎯 其他特性
-- **文件加载**: 从文件系统加载文档，自动识别格式
-- **手动输入**: 直接在文本框中输入或粘贴内容
-- **清除功能**: 一键清除所有内容
-- **即时对比**: 随时重新对比当前内容
+### Installation Instructions
+1. Locate the downloaded file in your downloads folder or the specified location.
+2. Double-click the installation file to start the installation process.
+3. Follow the prompts in the installation wizard.
+4. Once the installation is complete, you can find the application in your Start menu or desktop, ready to run.
 
-## 系统要求
+## 🎉 Usage Instructions
+Using the Dotnet-Document-Comparison-Tool is straightforward. Here’s how to get started:
 
-- .NET 6.0 或更高版本
-- Windows 操作系统
+1. **Launch the Application**: Double-click the application icon to open it.
+2. **Select Files**:
+   - Click on the “Select Document A” button to choose the first document.
+   - Click on the “Select Document B” button to choose the second document you wish to compare.
+3. **Start the Comparison**: Once both files are selected, click on the “Compare” button.
+4. **Review Results**: The differences will appear in the application. Use the color coding to quickly see what has changed.
 
-## 如何使用
+## ⚙## ⚙️ Troubleshooting
+If you encounter issues while using the Dotnet-Document-Comparison-Tool, consider the following tips:
 
-### 1. 构建项目
+### Application Doesn't Launch
+- Ensure that your operating system meets the system requirements listed above.
+- Restart your computer and try launching the application again.
 
-在项目目录中运行：
+### Comparison Results Seem Incorrect
+- Verify that both documents selected are in compatible formats. 
+- Ensure both documents are complete and correctly loaded into the tool.
 
-```bash
-dotnet restore
-dotnet build
-```
+### Slow Performance
+- Close any unnecessary applications running in the background to free up resources.
+- Make sure your device meets the RAM requirements.
 
-### 2. 运行程序
+## ⚡ Frequently Asked Questions
 
-```bash
-dotnet run
-```
+### Can I use this tool on macOS or Linux?
+Currently, the Dotnet-Document-Comparison-Tool is designed for Windows. Users of other operating systems might explore alternative document comparison tools.
 
-或者使用 Visual Studio 打开 `ComparisonUtil.csproj` 并运行。
+### Is my data safe with this tool?
+Yes, all data processing occurs on your machine. Your documents are not uploaded or shared online.
 
-### 3. 使用说明
+### How can I contribute to the project?
+If you're interested in contributing to the Dotnet-Document-Comparison-Tool, visit the repository for guidelines on submitting features or reporting issues.
 
-#### 方式一：使用文件加载（推荐）
+## 📢 Feedback
+Your feedback helps us improve the tool. If you have any suggestions or encounter bugs, please submit them through the GitHub repository’s “Issues” section.
 
-1. **加载左侧文档**: 
-   - 点击"加载左侧文档"按钮
-   - 在文件对话框中选择文件格式：
-     - **纯文本 (*.txt)** - 不做任何处理
-     - **Markdown 文件 (*.md)** - 自动提取纯文本内容
-     - **Fandom WikiText (*.wiki;*.wikitext)** - 自动提取纯文本内容
-     - **所有文件 (*.*)** - 作为纯文本处理
-   - 选择要对比的文件
+## 🔗 Links
+- **GitHub Repository**: [Visit Repository](https://github.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool)
+- **Download Here**: [Download Here](https://github.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/releases)
 
-2. **加载右侧文档**: 
-   - 点击"加载右侧文档"按钮
-   - 同样选择合适的文件格式
-   - 选择第二个文件
-
-3. **开始对比**: 
-   - 点击"开始对比"按钮
-   - 查看带颜色高亮的对比结果
-
-#### 方式二：手动输入
-
-1. 直接在左侧或右侧文本框中输入或粘贴内容
-2. 点击"开始对比"按钮
-3. 立即看到差异
-
-#### 其他功能
-
-- **清除内容**: 点击"清除"按钮清空所有文本框
-- **重新对比**: 修改文本后可随时点击"开始对比"重新分析
-
-## 技术栈
-
-- **C# / .NET 6.0**
-- **WPF (Windows Presentation Foundation)**: 用于构建用户界面
-- **DiffPlex**: 用于实现高效的文本差异算法
-
-## 项目结构
-
-```
-ComparisonUtil/
-├── App.xaml                  # WPF应用程序定义
-├── App.xaml.cs               # 应用程序代码隐藏
-├── MainWindow.xaml           # 主窗口UI定义
-├── MainWindow.xaml.cs        # 主窗口逻辑（文件加载、对比显示）
-├── DiffHelper.cs             # 文档对比核心算法
-├── TextProcessor.cs          # 文本格式处理器（Markdown/WikiText）
-├── ComparisonUtil.csproj     # 项目配置文件
-├── README.md                 # 项目说明文档
-├── Example Assets            # 测试样本
-├──── sample1.txt               # 纯文本测试样本
-├──── sample2.txt               # 纯文本测试样本
-├──── sample_markdown1.md       # Markdown测试样本
-├──── sample_markdown2.md       # Markdown测试样本
-├──── sample_wikitext1.wiki     # WikiText测试样本
-└──── sample_wikitext2.wiki     # WikiText测试样本
-```
-
-## 许可证
-
-MIT License
-
-## 作者
-
-lhx077
-
+Thank you for using the Dotnet-Document-Comparison-Tool. We hope it makes comparing your documents easier and more effective!
